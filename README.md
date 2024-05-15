@@ -111,7 +111,7 @@ Leave rest of the configuration as default
 Vendor: Generic
 Platform: Generic
 Software: Vendor Agnostic
-In this configuration file you will note that there are the Shared Keys and the Outside IP Address of Virtual Private Gateway for each of one of the two IPSec tunnels created by AWS.
+In this configuration file you will note that there are the Shared Keys and the Outside IP Address of Virtual Private Gateway for each of the two IPSec tunnels created by AWS.
 ```
 #### Establishing connection between Azure and AWS
 10. Creation of two Local Network Gateway in Azure for two Tunnels
