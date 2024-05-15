@@ -13,7 +13,7 @@ VNet Name: mederma-vnet1
 VNet IPv4 Address Space(CIDR): 172.19.0.0/16
 Subnet Name: mederma-vnet1subnet
 Subnet IPv4 Address Space(CIDR): 172.19.1.0/24
-Gateway Subnet with Address Space(CIDR): 172.19.2.0/24
+
 
 Create a Azure VM in this created subnet
 ```
@@ -83,6 +83,9 @@ create a private route table and public route table named as private-route-table
 Associate three public subnets to Public Route table and three private subnets to Private Route Table. Associate created Internet Gateway to Public Route Table with Destination: 0.0.0.0/0 and Target: Internet Gateway that was created earlier
 Destination: 0.0.0.0/0
 Target: Internet Gateway that was created earlier
+
+
+Create an EC2 Instance in Public Subnet.
 ```
 6. Create a customer gateway in AWS pointing to the Public IP Address of Azure VPN Gateway
 ```
