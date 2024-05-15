@@ -13,6 +13,7 @@ VNet Name: mederma-vnet1
 VNet IPv4 Address Space(CIDR): 172.19.0.0/16
 Subnet Name: mederma-vnet1subnet
 Subnet IPv4 Address Space(CIDR): 172.19.1.0/24
+GatewaySubnet with Address Space(CIDR): 172.19.2.0/24
 
 
 Create a Azure VM in this created subnet
