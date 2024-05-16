@@ -1,5 +1,5 @@
 ### Connection between AWS and Azure using Site-to-Site VPN
-<br><br/>
+
 **High Level Architecture Diagram**
 <br><br/>
 ![image](https://github.com/singhritesh85/connect-aws-to-azure-using-site2site-vpn/assets/56765895/0cad0574-9ae8-4d3c-b8b7-7f3d772eecf9)
