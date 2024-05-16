@@ -14,4 +14,9 @@ After executing above terraform scripts you have created
 (c) After above step download the Configuration file from AWS Console for VPN Connection and using parameters present in this configuration file perform the further step.
 (d) Finally create two Azure Local Network Gateway and two Connections in Azure Virtual Network Gateway.  
 ```
-At last associate Azure VNet Subnet CIDR in Route of the created Public and Private Route tables.  
+```
+At last associate Azure VNet Subnet CIDR in Route of the created Public and Private Route tables as written below.
+Destination: 172.19.1.0/24
+Target: Virtual Private Gateway that we created earlier.
+```
+Now ping the two Private IPs of Azure VM from EC2 and EC2 from from Azure VM.
