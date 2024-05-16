@@ -131,7 +131,7 @@ Address Space(s): 10.10.0.0/16
 ```
 11. Create two connections in Virtual Network Gateway in Azure for two tunnels
 ```
-Name: connection-1
+Name: mederma-connection-1
 Connection Type: Site-to-Site
 Local Network Gateway: Select the Local Network Gateway which you created earlier.
 Shared Key: Get the Shared Key from the configuration file downloaded earlier from AWS Console for VPN site-to-site.
@@ -139,7 +139,7 @@ Wait till the Connection Status changed to Connected.
 Now check in AWS Console wheather the 1st tunnel of Virtual Private Gateway became UP or not.
 
 
-Name: connection-2
+Name: mederma-connection-2
 Connection Type: Site-to-Site
 Local Network Gateway: Select the Local Network Gateway which you created earlier.
 Shared Key: Get the Shared Key from the configuration file downloaded earlier from AWS Console for VPN site-to-site.
