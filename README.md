@@ -1,7 +1,8 @@
 ### connect-aws-to-azure-using-site2site-vpn
 **High Level Architecture Diagram**
 <br><br/>
-![image](https://github.com/singhritesh85/connect-aws-to-azure-using-site2site-vpn/assets/56765895/9b89eb5e-175a-46c2-87cf-659a98231707)
+![image](https://github.com/singhritesh85/connect-aws-to-azure-using-site2site-vpn/assets/56765895/ccd6372f-bc89-448d-8058-440848679a67)
+
 
 #### Configuration in Azure
 1. Create a Resource Group in Azure
