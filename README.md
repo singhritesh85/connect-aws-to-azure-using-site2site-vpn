@@ -57,7 +57,7 @@ VPC IPv4 CIDR: 10.10.0.0/16
 IPv4 CIDR: 10.10.2.0/24
 
 
-Name: PublicSubnet-dev-3
+Name: PrivateSubnet-dev-3
 VPC Name: test-vpc-dev
 VPC IPv4 CIDR: 10.10.0.0/16
 IPv4 CIDR: 10.10.3.0/24
